@@ -1,4 +1,15 @@
-package PACKAGE_NAME;
+class Solution {
+    public void reverseString(char[] s) {
 
-public class Q7 {
+        char[] copy = s.clone();
+
+        int temp = copy.length - 1;
+        int temp2 = 0;
+
+        while (temp >= 0) {
+            s[temp2] = copy[temp];
+            temp--;
+            temp2++;
+        }
+    }
 }
