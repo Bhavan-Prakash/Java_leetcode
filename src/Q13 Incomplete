@@ -1,4 +1,6 @@
-ps : 1207
+ps : 1207 Unique Number of Occurrences 
+
+Incomplete
 
 Given an array of integers arr, return true if the number of occurrences of each value in the array is unique or false otherwise.
 
